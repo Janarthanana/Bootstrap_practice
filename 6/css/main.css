@@ -5,9 +5,47 @@
 
 .form-row label{
 	padding-right: 10px;
+	padding-left: 30px;
 	flex: 1;
 }
 
 .form-row input{
 	flex: 1;
+}
+body {
+	background-color: #A9A9A9;
+	}
+.container{
+	padding: -10px;
+	margin-top: 10px;
+	background-color: #FFFAF0;
+	max-width: 700px;
+}
+.column-layout
+{
+	max-width: 1300px;
+	background-color: #FFF;
+	margin: 40px auto 0 auto;
+	line-height: 1.65;
+	padding: 20px 50px;
+	display: flex;
+	text-align: justify;
+}
+.main-column
+{
+flex: 3;
+margin-right: 20px;
+order: 2;
+}
+.sidebar-one
+{
+margin-right: 20px;	
+flex: 1;
+order: 1;
+}
+.sidebar-two
+{
+flex: 1;
+margin-right: 20px;
+order: 3;
 }
