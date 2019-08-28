@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Testing</title>
+</head>
+<body>
+ 	<object style="height: 1500px;" data="https://skyviu.on.spiceworks.com/portal/tickets" width="100%"> <embed src="https://skyviu.on.spiceworks.com/portal/tickets" width="100%" height="100%"> </embed></object>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body ng-app="myApp">
+
+<select name="type1">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+  
+<!--  <script type="text/javascript">
+ 	$( "select" ) .change(function () {
+ 	alert($("select[name='type1'] option:selected").text());
+ 	});
+ </script> -->
+
+
+
+
+
+
+ <div ng-controller="ctrlee">
+<select class="ng-valid ng-touched ng-dirty ng-valid-parse" ng-options="'option ' + value + ' is' for value in array" ng-model="resultq" ng-change="changedValue(resultq)">
+    <option value="?" selected="selected" label=""></option>
+    <option value="0" label="option one is">option one is</option>
+    <option value="1" label="option two is">option two is</option>
+    <option value="2" label="option three is">option three is</option>
+    <option value="3" label="option four is">option four is</option>
+    <option value="4" label="option five is">option five is</option>
+</select>
+</div>
+
+</body>
+<!-- <script>
+  angular.module('myApp', [])
+    .controller('ctrlee', ['$scope', '$window', function($scope, $window) {
+      $scope.resultq = 'Hello, World!';
+      $scope.changedValue = function(resultq) {
+       $window.alert(resultq);
+       //alert("fasfa");
+      };
+    }]);
+</script> -->
+ <script>
+angular.module("myApp",[])
+  .controller("ctrlee",['$scope',function($scope){
+
+    /*$scope.changedValue = function(item){       
+    alert(item);*/
+
+    alert("hai");
+  }]);
+</script>
+</html>
