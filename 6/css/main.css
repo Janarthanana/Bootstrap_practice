@@ -49,3 +49,22 @@ flex: 1;
 margin-right: 20px;
 order: 3;
 }
+.call-outs-container
+{
+	max-width: 1400px;
+/*	margin: 40px 0 auto 0; */
+ margin: 20px 20px 0 20px;
+ display: flex;
+ align-items: stretch; /* for even the items(DIV's) */
+
+}
+
+.call-out{
+	padding: 20px;
+	margin-bottom: 20px; 
+	margin-right: 15px; /* gap for all other columns */
+}
+
+.call-out:nth-child(1) {background-color: #c0dbe2;}
+.call-out:nth-child(2) {background-color: #cdf1c3;}
+.call-out:nth-child(3) {background-color: #ccb9da; margin-right: 0; /* margin removed for last colimn of the row*/ }

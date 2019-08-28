@@ -38,6 +38,19 @@
 		<p>You can use the mouse to resize the outer frame and to move and resize data ... In addition, you can use the Chart Size tab on the Properties window to enter exact ... When a four-headed arrow appears, click and drag the element to a new location</p>
 	</div>
 </div>	
+<div class="call-outs-container">
+	<div class="call-out">
+		<h2>Call Out 1</h2>
+		<p>You can use the mouse to resize the outer frame and to move and resize data ... In addition, you can use the Chart Size tab on the Properties window to enter exact ... When a four-headed arrow appears, click and drag the element to a new location</p>
+	</div>
+	<div class="call-out">
+		<h2>Call Out 2</h2>
+		<p>Drag a window title bar to the left or right edge of the screen, and it ... to one edge of the display, Windows shows other open windows in ... Here are a few ways you can snap windows in Windows 10 by using a mouse or by dragging ... the edge, the window snaps to full height without changing its width.</p>
+	</div>
+	<div class="call-out">
+		<h2>Call Out 3</h2>
+		<p>Height/Width. Enter the height and width for the chart (outer frame). The measurement unit comes from the setting on the General tab of the Options dialog box (Edit menu in the Viewer). Experiment to get the size that works best for your chart. If you make the chart too small, elements can overlap. Also note that resizing the outer frame resizes other chart elements such as the data frame and legend frame.</p>
+	</div>
 </div>
 </body>
 </html>
