@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blinking</title>
+<style type="text/css">
+	.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     background-color: #B20000;    }
+    49%{    background-color: transparent; }
+    50%{    background-color: transparent; }
+    99%{    background-color:transparent;  }
+    100%{   background-color: #B20000;    }
+}
+</style>
+</head>
+<body>
+<span class="blinking">Am I blinking?</span>
+</body>
+</html>
